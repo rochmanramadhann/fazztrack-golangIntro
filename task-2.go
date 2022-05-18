@@ -26,7 +26,7 @@ func main() {
 	rand.Seed(time.Now().Unix())
 	var userInput string
 
-	fmt.Print("Please input any number : ")
+	fmt.Print("Please input any string : ")
 	// Taking user input
 	fmt.Scanln(&userInput)
 

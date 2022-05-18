@@ -25,7 +25,7 @@ func twoSum(numbers []int, target int) (int, int, int) {
 
 func main() {
 	data := []int{1, 7, 3, 4, 8, 9}
-	var x int = 5
+	var x int = 55
 
 	target, result1, result2 := twoSum(data, x)
 	fmt.Println("Pair with a given sum", target, "is (", result1, ",", result2, ")")
